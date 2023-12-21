@@ -18,7 +18,12 @@ Using the np.linalg.matrix_rank(), we can find the solutions
  # Program to find the rank of a matrix.
  # Developed by:SANJAI S
  # Register Number:23013614
- ![Screenshot 2023-12-21 185834](https://github.com/Sanjaichitra/RANK-OF-A-MATRIX/assets/144870518/d105f92b-6527-4a6b-9d76-3859471ff366)
+~~~
+import numpy as np
+A = np.array([[3,2,5],[1,1,2],[3,3,6]])
+rank = np.linalg.matrix_rank(A)
+print(rank)
+~~~
 
 ## Output:
 ![Screenshot 2023-12-16 152451](https://github.com/Sanjaichitra/RANK-OF-A-MATRIX/assets/144870518/26d4b62c-7426-4cf6-9e97-7c3d8ada4b22)
